@@ -1,0 +1,44 @@
+<%- include('partials/header') %>
+
+<div class="container-fluid gallery">
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="false" data-bs-keyboard="true" data-bs-pause="hover">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img class="gal-pic1" src="/images/gal-architecture 1.jpg" class="d-block w-100" alt="picture_1"><br>
+      <p class="img_description">Building 1, New York</p>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img class="gal-pic" src="/images/gal-architecture 2.jpg" class="d-block w-100" alt="picture_2"><br>
+      <p class="img_description">Building 2, New York</p>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img class="gal-pic" src="/images/gal-architecture 3.jpg" class="d-block w-100" alt="picture_3"><br>
+      <p class="img_description">Building 3, New York</p>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img class="gal-pic" src="/images/gal-architecture 4.jpg" class="d-block w-100" alt="picture_4"><br>
+      <p class="img_description">Building 4, New York</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev prev-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next prev-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+
+<img class="miami" src="/images/gal-panorama-last.jpg" alt="miami_panorama">
+
+<%- include('partials/footer') %>

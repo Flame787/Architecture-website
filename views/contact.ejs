@@ -1,0 +1,33 @@
+<%- include('partials/header') %>
+
+<div class="container-fluid main2">
+  <div class="row row-form">
+    <div class="col-lg-6 contact-div">
+      <h1 class="big-heading3">Contact us:</h1>
+      <div class="contact-form-div">
+        <form id="contact-form"  enctype="text/plain"
+          method="POST"
+          action=”mailto:mbrezovic77@gmail.com”
+          name="EmailForm">
+
+          <label for="name">Your name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Name"><br>
+          <label for="phone">Phone number:</label><br>
+          <input type="number" id="phone" name="phone" placeholder="+385..."><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="email@..."><br>
+          <label for="email">Your message:</label><br>
+          <textarea type="text" rows="4" cols="50" id="message" name="message" placeholder="Write your message here"></textarea><br>
+          <input class="submit-button" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+    <div class="col-lg-6 contact-div2">
+      <img class="gal-pic3 slide" src="/images/sky-contact.jpg" alt="picture_7"><br>
+    </div>
+  </div>
+</div>
+
+<img class="miami" src="/images/gal-panorama-last.jpg" alt="miami_panorama">
+
+<%- include('partials/footer') %>

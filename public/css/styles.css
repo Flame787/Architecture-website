@@ -1,0 +1,287 @@
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+p {
+  padding: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.small-heading {
+  font-family: "Montserrat", sans-serif;
+  color: #0F4C75;
+  font-size: 130%;
+  padding: 0 0 50px 25px;
+  text-align: center;
+}
+
+.input-row  {
+  margin: 25px;
+}
+
+.contact-form-div {
+  padding: 30px 60px 0 120px;
+  font-size: 169%;
+}
+
+.main2 {
+  background-color: #BBE1FA;
+  padding: 25px 15px;
+}
+
+.submit-button {
+  background-color: #0F4C75;
+  color: #E3F6F5;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 8px;
+  border: none;
+  text-align: left;
+  font-size: 100%;
+  margin-top: 30px ;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+}
+
+.submit-button:hover {
+  background-color: #000000;
+}
+
+.main {
+  background-color: #E3F6F5;
+  padding: 25px 15px;
+
+}
+
+.row {
+  margin: 25px 15px;
+  padding: 25px 15px;
+  text-align: center;
+}
+
+.text {
+  padding: 25px;
+  font-size: 150%;
+}
+
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0F4C75;
+  padding: 0 0 50px 25px;
+  text-align: center;
+}
+
+
+
+.big-heading2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0F4C75;
+  text-align: center;
+  font-weight: bold;
+  font-size: 180%;
+}
+
+.big-heading3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #0F4C75;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+
+.anchor {
+  padding: 5px;
+  color: #0F4C75;
+  font-weight: bold;
+}
+
+.address {
+  padding: 5px;
+  text-align: center;
+}
+
+.picture {
+  padding: 25px 25px;
+}
+
+.main:hover .main-image1{
+  /* transform: translateX(30%); */
+  /* animation-duration: 4s; */
+  /* animation-direction: reverse; */
+}
+
+/* .main:hover .main-image2{
+
+} */
+
+.slide {
+  animation: right-to-left 2s ease-in;
+  animation-direction: reverse;
+}
+
+@keyframes right-to-left {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+.main-image1 {
+  width: 75%;
+}
+
+.main-image2 {
+  width: 75%;
+  /* transition: transform 2s; */
+  /* animation: right-to-left 1s ease-in;
+  animation-direction: reverse; */
+}
+
+.main-image3 {
+  width: 75%;
+}
+
+.main-image4 {
+  width: 75%;
+}
+
+.main-image5 {
+  width: 65%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: #0F4C75;
+  position: fixed;
+}
+
+.navbar-toggler-icon {
+  background-color: #0F4C75;
+  color: #E3F6F5;
+}
+
+.navbar + .main {
+  padding-top: 60px;
+}
+
+.navbar-toggle.collapsed {
+  visibility: visible;
+}
+
+.navbar-brand {
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #E3F6F5;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: #E3F6F5;
+}
+
+.nav-link {
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #E3F6F5;
+}
+
+.miami {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+.miami:hover {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.service {
+  text-align: justify;
+  display: inline-block;
+}
+
+.gallery {
+  text-align: center;
+  background-color: #BBE1FA;
+  padding: 50px 25px;
+}
+
+.img_description {
+  font-size: 150%;
+}
+
+.img_description2 {
+  font-size: 80%;
+}
+
+.gal-pic1 {
+  height: 50%;
+}
+
+.gal-pic {
+  width: 50%;
+}
+
+.gal-pic2 {
+  height: 80%;
+}
+
+.gal-pic3 {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  float: right;
+  margin: 30px;
+}
+
+.contact-div {
+  position: inline;
+  padding-left: 30px;
+}
+
+.prev-next {
+  color: #0F4C75;
+  font-size: 150%;
+}
+
+.carousel-indicator {
+  color: #0F4C75;
+}
+
+.row-form {
+  text-align: justify;
+}
+
+#footer {
+  background-color: #0F4C75;
+  color: #E3F6F5;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 20px 0 2px;
+}
+
+.favicon {
+  padding: 10px 10px 40px;
+  font-size: 150%;
+}
+
+.favicon:hover {
+  color: #000;
+}
+
+.copyright {
+  padding: 10px 10px 0 10px;
+  font-size: 70%;
+}
